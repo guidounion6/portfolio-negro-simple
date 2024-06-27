@@ -1,9 +1,11 @@
-import React from 'react'
+
 import css from "../../assets/css.png"
 import html from "../../assets/html.png"
 import react from "../../assets/react.png"
 import tailwind from "../../assets/tailwind.png"
 import javascript from "../../assets/javascript.png"
+import next from "../../assets/next.png"
+import node from "../../assets/node.png"
 
 const Skills = () => {
     return (
@@ -14,28 +16,34 @@ const Skills = () => {
             </h2>
 
             <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-                <img src={html} alt="HTMl" width={100} heigth={100} />
+                <img src={javascript} alt="Javascript" width={100} height={100} />
+                <p className="mt-2">JAVASCRIPT</p>
+            </div>
+            <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+                <img src={html} alt="HTMl" width={100} height={100} />
                 <p className="mt-2">HTML</p>
             </div>
 
             <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-                <img src={css} alt="CSS" width={100} heigth={100} />
+                <img src={css} alt="CSS" width={100} height={100} />
                 <p className="mt-2">CSS</p>
             </div>
-
             <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-                <img src={javascript} alt="Javascript" width={100} heigth={100} />
-                <p className="mt-2">JAVASCRIPT</p>
-            </div>
-
-            <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-                <img src={react} alt="react" width={100} heigth={100} />
+                <img src={react} alt="react" width={100} height={100} />
                 <p className="mt-2">REACT</p>
             </div>
 
             <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-                <img src={tailwind} alt="tailwind" width={100} heigth={100} />
+                <img src={next} alt="tailwind" width={100} height={100} />
+                <p className="mt-2">NEXT</p>
+            </div>
+            <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+                <img src={tailwind} alt="tailwind" width={100} height={100} />
                 <p className="mt-2">TAILWIND</p>
+            </div>
+            <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+                <img src={node} alt="tailwind" width={100} height={100} />
+                <p className="mt-2">NODE</p>
             </div>
 
         </div>
