@@ -21,8 +21,6 @@ const Hero = () => {
                             1000,
                             "Web Designer",
                             1000,
-                            "Consultant",
-                            1000,
                         ]}
                         wrapper="span"
                         speed={50}
