@@ -2,7 +2,7 @@
 import proj1 from "../../assets/Quikdeli.png"
 import proj2 from "../../assets/Countries.png"
 import proj3 from "../../assets/Zoomclone.png"
-// import proj4 from "../../assets/proj4.png"
+import proj4 from "../../assets/TripInSight.png"
 // import proj5 from "../../assets/Zoomclone.png"
 // import proj6 from "../../assets/proj6.png"
 
@@ -68,7 +68,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-        {/* <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center 
         h-[200px] bg-cover relative">
 
@@ -77,7 +77,7 @@ const Work = () => {
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider"></span>
             <div className="pt-8 text-center">
-              <a href="/">
+              <a href="/https://tripinsight-peb3.onrender.com/">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Live
                 </button>
@@ -85,7 +85,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
+        {/* <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center 
         h-[200px] bg-cover relative">
 
@@ -101,8 +101,8 @@ const Work = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
+        </div> */}
+        {/* <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden 
         shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center 
         h-[200px] bg-cover relative">
 
